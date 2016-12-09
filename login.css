@@ -1,0 +1,62 @@
+
+html{
+    font-family: "微软雅黑";
+}
+
+
+
+
+/*输入框的代码是我在网上找的。。。。*/
+
+
+
+
+input{
+    border: 1px solid #ccc;
+    padding: 7px 0px;
+    border-radius: 3px;
+    padding-left:5px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+input:focus{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+
+#wrap{
+    margin: 0 auto;
+    margin-top: 200px;
+    height: 130px;
+    width: 176px;
+}
+
+
+
+
+
+#logu{
+    margin-left: 30px;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    float: left;
+    font-size: 10px;
+    background-color: #66afe9;
+    color: #fff;
+    border-radius:8px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    width: 48px;
+}
+a:hover{
+    background-color: #76afa9;
+}
